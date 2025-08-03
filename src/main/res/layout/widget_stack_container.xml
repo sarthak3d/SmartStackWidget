@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stack_widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="8dp">
+
+    <!-- Widget Stack List -->
+    <ListView
+        android:id="@+id/stack_widget_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:scrollbars="none"
+        android:background="@android:color/transparent" />
+
+    <!-- Empty State -->
+    <TextView
+        android:id="@+id/stack_widget_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No widgets in stack"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+    <!-- Configuration Button -->
+    <ImageButton
+        android:id="@+id/stack_widget_config_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/config_button_background"
+        android:src="@drawable/ic_settings"
+        android:contentDescription="Configure widget stack"
+        android:scaleType="fitCenter" />
+
+</LinearLayout> 

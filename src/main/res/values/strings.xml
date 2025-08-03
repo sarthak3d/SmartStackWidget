@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Stack Widget</string>
+    
+    <!-- Widget Names -->
+    <string name="stack_widget_name">Smart Stack Widget</string>
+    <string name="clock_widget_name">Clock Widget</string>
+    <string name="weather_widget_name">Weather Widget</string>
+    <string name="calendar_widget_name">Calendar Widget</string>
+    
+    <!-- Widget Descriptions -->
+    <string name="stack_widget_description">A customizable widget stack inspired by iOS Smart Stack</string>
+    <string name="clock_widget_description">Displays the current time</string>
+    <string name="weather_widget_description">Shows current weather information</string>
+    <string name="calendar_widget_description">Displays calendar information</string>
+    
+    <!-- UI Strings -->
+    <string name="add_widget_to_home">Add Stack Widget to Home Screen</string>
+    <string name="configure_widget">Configure Stack Widget</string>
+    <string name="widget_status">Widget Status</string>
+    <string name="no_widgets_active">No stack widgets added to home screen</string>
+    <string name="widgets_active">%d stack widget(s) active</string>
+    
+    <!-- Configuration -->
+    <string name="configure_title">Configure Smart Stack Widget</string>
+    <string name="configure_subtitle">Customize your widget stack and settings</string>
+    <string name="smart_rotation">Smart Rotation</string>
+    <string name="enable_auto_rotation">Enable automatic widget rotation</string>
+    <string name="rotation_interval">Rotation interval (minutes):</string>
+    <string name="available_widgets">Available Widgets</string>
+    <string name="save_configuration">Save Configuration</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Features -->
+    <string name="features_title">Features:</string>
+    <string name="feature_swipeable">• Swipeable widget stack</string>
+    <string name="feature_smart_rotation">• Smart rotation based on time/usage</string>
+    <string name="feature_drag_drop">• Drag &amp; drop reordering</string>
+    <string name="feature_persistent">• Persistent widget state</string>
+    <string name="feature_android15">• Android 15+ optimizations</string>
+    
+    <!-- Empty State -->
+    <string name="no_widgets_in_stack">No widgets in stack</string>
+    <string name="loading">Loading...</string>
+    
+    <!-- Accessibility -->
+    <string name="configure_widget_stack">Configure widget stack</string>
+</resources> 
